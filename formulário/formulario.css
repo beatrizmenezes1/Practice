@@ -1,0 +1,70 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: minion;
+    font-size: 50px;
+    color:#FF1493;
+    text-align: center;
+
+}
+
+#subtitulo{
+    font-family: minion;
+    font-size: 30px;
+    color:	#FF69B4;
+    text-align: center;
+}
+
+fieldset.gruponome{
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    color:#FF69B4;;
+}
+
+.email{
+    font-size: 20px;
+    color:#FF69B4;
+    text-align: center;
+}
+
+
+body{
+    background-color:	#F5F5F5;
+    font-size: 1em;
+    margin-left: 6%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.campoaplicacoes label{ 
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.campoaplicacoes{
+    color:#FF1493;
+    font-size: 20px;
+   
+}
+
+.senioridade{
+    color:#FF1493;;
+}
+
+fieldset.grupotec {
+    border: 0;
+    color:#FF1493;;
+}
+
+.xp {
+    color:#FF1493;;
+}
+
+.botao{
+    border-color:#FF69B4;;
+}
+
