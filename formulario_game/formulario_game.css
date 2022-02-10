@@ -1,0 +1,42 @@
+body{
+    background-color:black;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+div.titulo{
+    text-align: center;
+    color: rgb(183, 0, 255);
+    font-size: 20px;
+    
+}
+
+fieldset.grupodadospessoas{
+    border:0ch;
+    background-color:#4B0082;
+    color:#66CDAA;
+}
+
+
+fieldset.grupogame{
+    border:0cm;
+    background-color: #4B0082;
+    color:#DA70D6;
+}
+
+.radiop label{ 
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.radioe label{ 
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset.grupocompetitivo{
+    border:0ch;
+    background-color: #4B0082;
+    color: #DAA520;
+}
+

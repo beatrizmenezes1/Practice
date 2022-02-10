@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+    <html lang="pt-br">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="formulario_game.css" media="">
+            <title>GameSand - GS</title>
+        </head>
+
+            <body>
+
+                <div class="titulo">
+                    <h1>Formulário para amantes de jogos eletrônicos</h1>
+                    <p>Leia e responda as perguntas abaixo e nos mostre suas opniões</p>
+                    <img src="link200.png" alt="Link">
+                </div>
+
+                <br>
+
+                <form>
+
+                    <fieldset class="grupodadospessoas">
+                        <h2>Dados Pessoas</h2>
+                            <div class="dados">
+                                <div>
+                                    <label for="nome"><strong>Diga-nos o seu nome: </strong></label>
+                                        <input type="text" name="nome" id="nome" required>
+                                </div>
+
+                                <div>
+                                    <label for="sobrenome"><strong>E o seu sobrenome?</strong></label>
+                                        <input type="text" name="sobrenome" id="sobrenome" required>
+                                </div>
+
+                                <div>
+                                    <label for="nascimento"><strong>Data de nascimento: </strong></label>
+                                        <input type="date" name="nascimento" id="nascimento">
+                                </div>
+                            </div>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset class="grupogame">
+
+                        <h2>Dados Gamer</h2>
+                            <div>
+                                <label for="nickname">Qual seu nickname? </label>
+                                    <input type="text" name="nickname" id="nickname">
+                            </div>
+                            <br>
+                            <div class="radiop">
+                                <label for="plataforma">Onde você joga?</label>
+                                <label> 
+                                    <input type="radio" name="Console" value="console">Console. Qual ou quais?
+                                    <input type="text" name="qualConsole" id="qualConsole">
+                                </label>
+                                <label>
+                                    <input type="radio" name="Pc" id="pc">Pc ou Notebook
+                                </label>
+                                <label>
+                                    <input type="radio" name="Celular" id="celular">Celular
+                                </label>
+                            </div>
+                            <br>
+                            <div>
+                                <label for="jogofavorito">Qual seu jogo favorito?</label>
+                                    <input type="text" name="jogo" id="jogo">
+                            </div>
+                            <br>
+                            <div class="radioe">
+                                <label for="empresajogo">É fã de alguma empresa de jogos?</label>
+                                    <label>
+                                        <input type="radio" name="sim" id="sim">Sim. Qual?
+                                        <input type="text" name="qualempresa" id="qualempresa">
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="nao" id="nao">Não
+                                    </label>
+                            </div>
+                    </fieldset>
+
+                     <br>
+
+                    <fieldset class="grupocompetitivo">
+                    <h2>Dados E-sports</h2>
+                    
+                    <div>
+                        <label for="campeonato">Assiste a campeonatos de algum jogo?</label>
+                            <label>
+                                <input type="radio" name="sim" id="sim">Sim. Qual?
+                                <input type="text" name="qualempresa" id="qualempresa">
+                            </label>
+                            <label">
+                                <input type="radio" name="nao" id="nao">Não
+                            </label>
+                    </div>
+                    </fieldset>
+                    <br>
+
+                </form>
+
+        </body>
+
+</html>
+
+
+
