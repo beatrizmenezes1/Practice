@@ -40,3 +40,7 @@ fieldset.grupocompetitivo{
     color: #DAA520;
 }
 
+.radioc label{ 
+    margin-bottom: 0.2em;
+    display: block;
+}
