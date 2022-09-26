@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(46, 50, 53), rgb(0, 0, 0));
+}
+
+h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-family:'Courgette', cursive;
+    font-size: 60pt;
+    font-weight: initial;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+
+.container-colorido {
+    width: 400px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #565557;
+    
+    background-image: linear-gradient(rgba(32, 26, 108), rgba(214, 64, 0, 1), rgba(132, 0, 214, 1));
+    background-size: 100% 400%;
+    animation-name: animacao;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animacao{
+    0%{
+        background-position-y: 0%;
+    }
+    100%{
+        background-position-y: 100%;
+    }
+}
+
+.container-vidro {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(217, 217, 217, 0.19);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-top{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.text-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.text-final {
+    color: aliceblue;
+    font-size: 30pt;
+    margin-top: 50px;
+    font-family: 'Courgette', cursive;
+    font-weight: initial;
+    letter-spacing: 10px;
+}
